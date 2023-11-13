@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-image: url(IMAGES/work.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed;
+    color: black;
+}
+
+.logFlex{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: tan;
+    color: black;
+    text-align: center;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+a{
+    color: #5cb85c;
+}
+
+a:hover {
+    color: #d9534f;
+}
+
+.empty {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+    width: 90%;
+    display: grid;
+    grid-column-gap: 150px;
+    grid-row-gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    background-color: transparent;  
+    justify-items: center;
+    align-items: center;
+}
+.grid-item {
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    width: 400px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.but {
+    padding: 0%;
+    border: none;
+}
+
+.thead{
+    font-weight: bold;
+    margin: 0;
+}
+
+.cover_container{
+    margin-left: 10%;
+}
+
+.logbody{
+    width: 450px;
+    border-radius: 50px;
+}
